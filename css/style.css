@@ -1,1 +1,180 @@
-/* Untuk test git */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER SECTION*/
+
+#navigation-bar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 175, 244);
+    color: white;
+    margin: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+
+/* LUAS SEGITIGA SECTION*/
+
+.luas-segitiga-section {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    border-radius: 15px; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#judul-luas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(0, 175, 244);
+}
+
+img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    margin: auto;
+  }
+
+
+.input-luas-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+#subheader-luas {
+    font-size: large;
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.katik-input {
+    outline: none;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    margin-bottom: 8px;
+}
+
+.katik-input:focus {
+    border: 1px solid rgb(0, 175, 244);
+}
+
+.buttons {
+    display: flex;
+    align-self: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+button {
+    background-color: rgb(0, 175, 244);
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(2, 124, 172);
+    transform: translateY(-2px);
+}
+
+#button-reset:hover {
+    background-color: red;
+}
+
+button:disabled {
+    background-color: grey;
+}
+
+.hasil-luas {
+    outline: none;
+    border-radius: 8px;
+    height: 24px;
+    padding: 8px;
+    background-color: #FCF3D4;
+    border: 4px #F5C946;
+}
+
+
+/* KELILING SEGITIGA SECTION*/
+
+.keliling-segitiga-section  {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    border-radius: 15px; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#judul-keliling {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(0, 175, 244);
+}
+
+.input-keliling-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+#subheader-keliling {
+    font-size: large;
+    font-weight: bold;
+}
+
+.hasil-keliling {
+    outline: none;
+    border-radius: 8px;
+    height: 24px;
+    padding: 8px;
+    background-color: #FCF3D4;
+    border: 2px #F5C946;
+}
+
+
+/* FOOTER SECTION*/
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(0, 175, 244);
+    margin-top: 160px;
+    border-top: 1px solid rgb(0, 175, 244);
+}
