@@ -12,7 +12,11 @@
         </header>
         <br>
         <main>
-        <!-- LUAS SEGITIGA -->
+        <section class="heading-kalset">
+            <p id="perkenalan-kalset">Halo! Kalset Siap Membantumu!</p>
+            <web id="detail-kalset">Di web app kalkulator segitiga ini kamu dapat menghitung luas dan keliling segitiga dengan lebih mudah dan cepat</p>
+        </section>
+        <br>
         <section class="luas-segitiga-section">
             <h2 class="header-luas" id="judul-luas">Luas Segitiga</h2>
             <img id= "gambar-luas" src="asset/Rumus Luas Segitiga.png" alt="Rumus Luas Segitiga"/>
@@ -24,42 +28,42 @@
                 <input type="number" class="katik-input" id="input-alas" placeholder="Masukkan nilai alas">
             </div>
             <div class="buttons">
-                <button id="button-hitung">Hitung</button>
-                <button id="button-reset">Reset</button>
+                <button id="button-hitung" onclick="luasSegitiga()">Hitung</button>
+                <button id="button-reset" onclick="resetLuasSegitiga()">Reset</button>
             </div>
+            <br>
             <div class="hasil-luas-section">
                 <h4 id="subheader-luas">Hasil Luas Segitiga:</h4>
-                <div class="hasil-luas" id="output-luas"></div>
+                <p class="hasil-luas" id="output-luas"></p>
             </div>
         </section>
         <br>
-        <!-- KELILING SEGITIGA -->
         <section class="keliling-segitiga-section">
             <h3 class="header-keliling" id="judul-keliling">Keliling Segitiga</h3>
             <img src="asset/Rumus Keliling Segitiga.png" alt="Rumus Keliling Segitiga"/>
             <div class="input-keliling-section">
                 <h4 id="subheader-keliling">Hitung Keliling Segitiga</h4>
                 <label for="sisi-satu" id="sisi-satu">Sisi ke-1</label>
-                <input type="number" class="katik-input" id="input-sisi-satu" placeholder="Masukkan nilai sisi 1">
+                <input type="number" class="katik-input" id="input-sisi-satu" placeholder="Masukkan nilai sisi ke-1">
                 <label for="sisi-dua" id="sisi-dua">Sisi ke-2</label>
-                <input type="number" class="katik-input" id="input-sisi-dua" placeholder="Masukkan nilai sisi 2">
+                <input type="number" class="katik-input" id="input-sisi-dua" placeholder="Masukkan nilai sisi ke-2">
                 <label for="sisi-tiga" id="sisi-tiga">Sisi ke-3</label>
-                <input type="number" class="katik-input" id="input-sisi-tiga" placeholder="Masukkan nilai sisi 3">
+                <input type="number" class="katik-input" id="input-sisi-tiga" placeholder="Masukkan nilai sisi ke-3">
             </div>
             <div class="buttons">
-                <button id="button-hitung">Hitung</button>
-                <button id="button-reset">Reset</button>
+                <button id="button-hitung" onclick="kelilingSegitiga()">Hitung</button>
+                <button id="button-reset" onclick="resetKelilingSegitiga()">Reset</button>
             </div>
+            <br>
             <div class="hasil-keliling-section">
                 <h4 id="subheader-keliling">Hasil Keliling Segitiga:</h4>
-                <div class="hasil-keliling" id="output-keliling"></div>
+                <p class="hasil-keliling" id="output-keliling"></p>
             </div>
         </section>
         </main>
-         <!-- FOOTER -->
         <footer class="footer">
             <p>Created by Widya 2023</p>
         </footer>
     </body>
-    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
 </html>
